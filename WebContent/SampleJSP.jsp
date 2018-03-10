@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<strong>Context-Initialized Parameters</strong>  ${initParam}<br>
+<strong>Context-Initialized Parameters</strong> ${initParam}<br>
 <strong>RequestScoped Parameters</strong> ${header["User-Agent"]} 
 </body>
 </html>
