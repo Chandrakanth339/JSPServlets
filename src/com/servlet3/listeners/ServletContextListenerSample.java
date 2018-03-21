@@ -30,6 +30,7 @@ public class ServletContextListenerSample implements ServletContextListener {
      * @see ServletContextListener#contextInitialized(ServletContextEvent)
      */
     public void contextInitialized(ServletContextEvent arg0)  { 
+    	 System.out.println("Initializing Context");
          ServletContext servletContext = arg0.getServletContext();
          servletContext.setInitParameter("ContextInitParam", "ContextInitParamValue");
     }
