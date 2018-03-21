@@ -43,7 +43,7 @@ public class Sample extends HttpServlet {
 		session.setAttribute("sa", tS);
 
 		// Cookie
-		response.addCookie(new Cookie("UserCookie", "CookieValue"));
+		response.addCookie(new Cookie("User.Cookie", "CookieValue"));
 		
 		RequestDispatcher rD = request.getRequestDispatcher("/SampleJSP.jsp");
 		request.setAttribute("InitParams", getServletConfig().getInitParameter("ServletConfigParam"));

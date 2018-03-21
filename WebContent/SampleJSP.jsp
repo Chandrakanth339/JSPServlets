@@ -10,7 +10,8 @@
 	<strong>Context-Initialized Parameters</strong> ${initParam}<br>
 	<strong>Header params with Array Index</strong>${header["User-Agent"]}<br>
 	<strong>Full Header Param</strong>${header}<br>
-	<strong>Application Scope Parameters</strong>${cookie}
+	<strong>Cookie</strong>${cookie}<br>
+	<strong>Cookie Parameter Value</strong>${cookie["User.Cookie"].value}<br>
 	<strong>Session Attribute</strong>${sessionScope.sa.strField}<br>
 	<strong>Session Attribute</strong>${requestScope.initParam}
 	<strong></strong>
